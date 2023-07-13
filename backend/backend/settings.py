@@ -10,9 +10,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv(
     'SECRET_KEY',
-    default = 'django-insecure-hj(r17^!qxjrzvc9weeh(ck=@dq%gz9m4tbvcr7$-$5(k_m)4x')
+    default='django-insecure-hj(r17^!qxjrzvc9weeh(ck=@dq%gz9m4tbvcr7$-$5(k_m)4x')
 
-DEBUG = os.getenv('DEBAG', default = False)
+DEBUG = os.getenv('DEBAG', default=False)
 
 ALLOWED_HOSTS = ['158.160.65.213', '127.0.0.1', 'localhost', 'taskimono26.ddns.net']
 
