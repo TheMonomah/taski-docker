@@ -87,5 +87,3 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: themonomah/taski_backend:latest
-  frontend_tests:
-    runs-on: ubuntu-latest
